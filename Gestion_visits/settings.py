@@ -24,11 +24,11 @@ SECRET_KEY = 'django-insecure-ya!be0-6+v4c+z!qzdh8!g9#$^1tj+92=e+_())#x64rzt347r
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-if DEBUG:
-    import mimetypes
-    mimetypes.add_type("application/javascript", ".js", True)
+#if DEBUG:
+    #mport mimetypes
+    #mimetypes.add_type("application/javascript", ".js", True)
 
-DEBUG = False
+#DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Gestion_visits',
-    'debug_toolbar',
+    #'debug_toolbar',
     
 ]
 
@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    #'debug_toolbar.middleware.DebugToolbarMiddleware',
     
 
 ]
