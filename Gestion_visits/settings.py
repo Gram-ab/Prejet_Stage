@@ -31,7 +31,7 @@ DEBUG = False
 
 #DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','https://prejetdestage02.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','prejetdestage02.herokuapp.com/']
 
 
 # Application definition
