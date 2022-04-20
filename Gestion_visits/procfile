@@ -1,1 +1,1 @@
-web: gunicorn Gestion_visits.wsgi --log-file -
+web: gunicorn Prejet_stage.wsgi --log-file -  
